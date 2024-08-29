@@ -65,3 +65,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# pix-position" 
+
+[XDebug]			
+xdebug.mode = debug			
+xdebug.start_with_request = yes			
+xdebug.client_port = 9003			
+zend_extension = xdebug			
+xdebug.log_level = 0 			
+			
+extension= php_zmq.dll			
+extension_dir=C:\xampp81\php\ext
